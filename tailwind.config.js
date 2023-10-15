@@ -14,12 +14,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Urbanist', ...defaultTheme.fontFamily.sans],
+        sans: ['Mukta', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        primary: '#092237',
-        secondary: '#ffff66',
-        tertiary: '#f70d1a',
+        primary: '#ffff66',
+        secondary: '#f70d1a',
       },
     },
   },
