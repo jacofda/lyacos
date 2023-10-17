@@ -1,7 +1,7 @@
 <template>
   <div class="group relative h-screen">
     <img
-      :src="`${config.public.cdn}lyacos-foundation-bw.jpeg`"
+      :src="`${config.public.cdn}lyacos-foundation-bw.webp`"
       alt="dimitri lyacos"
       class="object-cover h-full w-full -z-10 brightness-75 md:brightness-50 contrast-150 group-hover:contrast-100 transition duration-300" />
     <div class="absolute top-0 left-0 flex flex-col items-center justify-around z-0 w-full h-full">
