@@ -2,7 +2,8 @@
   <div class="group relative h-screen">
     <img
       :src="`${config.public.cdn}lyacos-foundation-bw.jpeg`"
-      class="object-cover h-full w-full -z-10 brightness-50 contrast-150 group-hover:contrast-100 transition duration-300" />
+      alt="dimitri lyacos"
+      class="object-cover h-full w-full -z-10 brightness-75 md:brightness-50 contrast-150 group-hover:contrast-100 transition duration-300" />
     <div class="absolute top-0 left-0 flex flex-col items-center justify-around z-0 w-full h-full">
       <div class="text-center group-hover:translate-y-12 transform-gpu transition duration-500">
         <h1 class="text-3xl lg:text-6xl font-light text-gray-50/70">Dimitris Lyacos</h1>
@@ -28,4 +29,13 @@ definePageMeta({
 
 const config = useRuntimeConfig();
 const store = useLayoutStore();
+
+useSeoMeta({
+  title: 'Dimitris Lyacos Foundation',
+  description: 'The official website of the Dimitris Lyacos Foundation',
+  ogTitle: 'Dimitris Lyacos Foundation',
+  ogDescription: 'The official website of the Dimitris Lyacos Foundation',
+  ogImage: `${config.public.cdn}lyacos-foundation-bw.jpeg`,
+  ogUrl: 'https://lyacosfoundation.org',
+});
 </script>
