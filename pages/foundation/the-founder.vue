@@ -61,9 +61,14 @@
     </div>
   </section>
 </template>
-<script lang="ts">
-import { Component, Vue, Prop } from 'vue-facing-decorator';
-
-@Component
-export default class TheFounder extends Vue {}
+<script lang="ts" setup>
+const config = useRuntimeConfig();
+useSeoMeta({
+  title: 'The founder | Dimitris Lyacos Foundation',
+  description: 'The founder of the Dimitris Lyacos Foundation',
+  ogTitle: 'The founder | Dimitris Lyacos Foundation',
+  ogDescription: 'The founder of the Dimitris Lyacos Foundation',
+  ogImage: `${config.public.cdn}lyacos-foundation-bw.jpeg`,
+  ogUrl: 'https://lyacos.org/foundation/the-founder',
+});
 </script>

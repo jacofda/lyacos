@@ -36,6 +36,6 @@ useSeoMeta({
   ogTitle: 'Dimitris Lyacos Foundation',
   ogDescription: 'The official website of the Dimitris Lyacos Foundation',
   ogImage: `${config.public.cdn}lyacos-foundation-bw.jpeg`,
-  ogUrl: 'https://lyacosfoundation.org',
+  ogUrl: 'https://lyacos.org',
 });
 </script>

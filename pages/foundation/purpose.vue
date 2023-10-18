@@ -52,9 +52,14 @@
     </div>
   </section>
 </template>
-<script lang="ts">
-import { Component, Vue } from 'vue-facing-decorator';
-
-@Component
-export default class ThePurpose extends Vue {}
+<script lang="ts" setup>
+const config = useRuntimeConfig();
+useSeoMeta({
+  title: 'Purpose | Dimitris Lyacos Foundation',
+  description: 'Purpose of the Dimitris Lyacos Foundation',
+  ogTitle: 'Purpose | Dimitris Lyacos Foundation',
+  ogDescription: 'Purpose of the Dimitris Lyacos Foundation',
+  ogImage: `${config.public.cdn}lyacos-foundation-bw.jpeg`,
+  ogUrl: 'https://lyacos.org/foundation/purpose',
+});
 </script>
