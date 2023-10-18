@@ -1,9 +1,7 @@
-<template>
-  <div>THE FOUNDATION</div>
-</template>
+<template>GoverningBody</template>
 <script lang="ts">
 import { Component, Vue, Prop } from 'vue-facing-decorator';
 
 @Component
-export default class TheFoundation extends Vue {}
+export default class TheGoverningBody extends Vue {}
 </script>

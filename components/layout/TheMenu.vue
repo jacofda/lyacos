@@ -24,27 +24,50 @@
         class="text-xl font-semibold text-gray-100 hover:text-primary border-b border-dashed border-transparent hover:border-primary transition duration-300"
         >Home</NuxtLink
       >
+      <template v-for="(item, i) in (menu as any[])" :key="i">
+        <div v-if="item.dropdown" class="hidden lg:flex lg:gap-x-12">
+          <div class="relative">
+            <button
+              type="button"
+              class="flex items-center text-xl font-semibold text-gray-100 hover:text-primary border-b border-dashed border-transparent hover:border-primary transition duration-300"
+              aria-expanded="false"
+              @click="toggleDropdown()">
+              {{ item.text }}
+              <svg
+                class="ml-2 h-5 w-5 flex-none text-gray-100 hover:text-primary"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true">
+                <path
+                  fill-rule="evenodd"
+                  d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                  clip-rule="evenodd" />
+              </svg>
+            </button>
 
-      <NuxtLink
-        to="/the-foundation"
-        class="text-xl font-semibold text-gray-100 hover:text-primary border-b border-dashed border-transparent hover:border-primary transition duration-300"
-        >The foundation</NuxtLink
-      >
-      <NuxtLink
-        to="/blog"
-        class="text-xl font-semibold text-gray-100 hover:text-primary border-b border-dashed border-transparent hover:border-primary transition duration-300"
-        >Blog</NuxtLink
-      >
-      <NuxtLink
-        to="/collaborations"
-        class="text-xl font-semibold text-gray-100 hover:text-primary border-b border-dashed border-transparent hover:border-primary transition duration-300"
-        >Collaborations</NuxtLink
-      >
-      <NuxtLink
-        to="/contacts"
-        class="text-xl font-semibold text-gray-100 hover:text-primary border-b border-dashed border-transparent hover:border-primary transition duration-300"
-        >Contacts</NuxtLink
-      >
+            <div
+              class="absolute -left-2 top-full z-10 mt-3 w-screen max-w-[12rem] overflow-hidden bg-gray-900 shadow-lg ring-1 ring-gray-900/5"
+              :class="{ hidden: !dropdownOpen }">
+              <div class="py-4 px-6 flex flex-col gap-6">
+                <NuxtLink
+                  v-for="(dropdownItem, j) in item.dropdownItems"
+                  :key="j"
+                  :to="dropdownItem.link"
+                  class="block font-semibold text-gray-100 hover:text-primary transition duration-300"
+                  @click="toggleDropdown()">
+                  {{ dropdownItem.text }}
+                </NuxtLink>
+              </div>
+            </div>
+          </div>
+        </div>
+        <NuxtLink
+          v-else
+          :to="item.link"
+          class="text-xl font-semibold text-gray-100 hover:text-primary border-b border-dashed border-transparent hover:border-primary transition duration-300"
+          >{{ item.text }}</NuxtLink
+        >
+      </template>
     </div>
   </nav>
 </template>
@@ -55,5 +78,14 @@ const prop = defineProps({
     type: Boolean,
     default: false,
   },
+  menu: {
+    type: Array,
+    default: () => [],
+  },
 });
+const dropdownOpen = ref(false);
+
+const toggleDropdown = () => {
+  dropdownOpen.value = !dropdownOpen.value;
+};
 </script>
