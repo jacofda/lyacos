@@ -15,7 +15,7 @@
     </div>
 
     <slot />
-    <!-- <LayoutTheFooter /> -->
+    <LayoutTheFooter />
   </div>
 </template>
 <script setup lang="ts">
