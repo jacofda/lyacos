@@ -59,7 +59,7 @@ useSeoMeta({
   description: 'Purpose of the Dimitris Lyacos Foundation',
   ogTitle: 'Purpose | Dimitris Lyacos Foundation',
   ogDescription: 'Purpose of the Dimitris Lyacos Foundation',
-  ogImage: `${config.public.cdn}lyacos-foundation-bw.jpeg`,
+  ogImage: `${config.public.cdn}tr:w-1230,h-630/lyacos-foundation.webp`,
   ogUrl: 'https://lyacos.org/foundation/purpose',
 });
 </script>

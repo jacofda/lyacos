@@ -25,9 +25,15 @@
     </div>
   </section>
 </template>
-<script lang="ts">
-import { Component, Vue, Prop } from 'vue-facing-decorator';
+<script lang="ts" setup>
+const config = useRuntimeConfig();
 
-@Component
-export default class TheFoundation extends Vue {}
+useSeoMeta({
+  title: 'Contacts | Dimitris Lyacos Foundation',
+  description: 'Contacts of the Dimitris Lyacos Foundation',
+  ogTitle: 'Contacts | Dimitris Lyacos Foundation',
+  ogDescription: 'Contacts of the Dimitris Lyacos Foundation',
+  ogImage: `${config.public.cdn}tr:w-1230,h-630/lyacos-foundation.webp`,
+  ogUrl: 'https://lyacos.org/contacts',
+});
 </script>

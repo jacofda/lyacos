@@ -68,7 +68,7 @@ useSeoMeta({
   description: 'The founder of the Dimitris Lyacos Foundation',
   ogTitle: 'The founder | Dimitris Lyacos Foundation',
   ogDescription: 'The founder of the Dimitris Lyacos Foundation',
-  ogImage: `${config.public.cdn}lyacos-foundation-bw.jpeg`,
+  ogImage: `${config.public.cdn}tr:w-1230,h-630/lyacos-foundation.webp`,
   ogUrl: 'https://lyacos.org/foundation/the-founder',
 });
 </script>
