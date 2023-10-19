@@ -4,6 +4,7 @@ import css from './config/css';
 import devtools from './config/devtools';
 import experimental from './config/experimental';
 import googleFonts from './config/googleFonts';
+import partytown from './config/partytown';
 import modules from './config/modules';
 import nitro from './config/nitro';
 import postcss from './config/postcss';
@@ -19,6 +20,7 @@ export default defineNuxtConfig({
   googleFonts,
   modules,
   nitro,
+  partytown,
   postcss,
   routeRules,
   runtimeConfig,
