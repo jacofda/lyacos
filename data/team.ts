@@ -9,7 +9,7 @@ export interface TeamMember {
 
 export const items = [
   {
-    img: 'https://placehold.co/400x600/000/F9FAFB/?font=roboto',
+    img: 'https://placehold.co/400x600/000/F9FAFB/?font=roboto&text=coming soon',
     name: 'Dr. Anastassios Psilogiannopoulos',
     slug: 'anastassios-psilogiannopoulos',
     position: 'Chairman of the Board',
@@ -17,7 +17,7 @@ export const items = [
     description: '',
   },
   {
-    img: 'https://placehold.co/400x600/000/F9FAFB/?font=roboto',
+    img: 'https://placehold.co/400x600/000/F9FAFB/?font=roboto&text=coming soon',
     name: 'Dr. Vaios Dafos',
     slug: 'vaios-dafos',
     position: 'Vice-chairman, Secretary',
@@ -52,7 +52,7 @@ export const items = [
     order: 5,
   },
   {
-    img: 'https://placehold.co/400x600/000/F9FAFB/?font=roboto',
+    img: 'https://placehold.co/400x600/000/F9FAFB/?font=roboto&text=coming soon',
     name: 'Anthimos Tsentekidis',
     slug: 'anthimos-tsentekidis',
     position: 'Treasurer',
@@ -70,7 +70,7 @@ export const items = [
     order: 7,
   },
   {
-    img: 'https://placehold.co/400x600/000/F9FAFB/?font=roboto',
+    img: 'https://placehold.co/400x600/000/F9FAFB/?font=roboto&text=coming soon',
     name: 'Eugene Attia',
     slug: 'eugene-attia',
     position: 'Translations Coordinator',
@@ -79,7 +79,7 @@ export const items = [
     order: 8,
   },
   {
-    img: 'https://placehold.co/400x600/000/F9FAFB/?font=roboto',
+    img: 'https://placehold.co/400x600/000/F9FAFB/?font=roboto&text=coming soon',
     name: 'Kostas Lioumas',
     slug: 'kostas-lioumas',
     position: 'Legal Representation',
