@@ -30,18 +30,28 @@ export default class TheHeader extends Vue {
           text: 'Governing Body',
         },
       ],
+      cta: false,
     },
     {
-      link: '/blog',
-      text: 'Blog',
+      link: '/partners',
+      text: 'Partners',
+      cta: false,
     },
     {
       link: '/collaborations',
       text: 'Collaborations',
+      cta: false,
     },
     {
       link: '/contacts',
       text: 'Contacts',
+      cta: false,
+    },
+    {
+      link: 'https://www.lyacos.net',
+      text: 'Official Website',
+      external: true,
+      cta: true,
     },
   ];
 }

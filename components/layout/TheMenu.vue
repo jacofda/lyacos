@@ -17,7 +17,7 @@
         </svg>
       </button>
     </div>
-    <div class="hidden lg:flex lg:gap-x-24">
+    <div class="hidden lg:flex items-center lg:gap-x-12 xl:gap-x-16">
       <NuxtLink
         v-if="!isHome"
         to="/"
@@ -25,7 +25,7 @@
         >Home</NuxtLink
       >
       <template v-for="(item, i) in (menu as any[])" :key="i">
-        <div v-if="item.dropdown" class="hidden lg:flex lg:gap-x-12">
+        <div v-if="item.dropdown" class="hidden lg:flex lg:gap-x-8 xl:gap-x-12">
           <div class="relative">
             <button
               type="button"
@@ -62,10 +62,17 @@
           </div>
         </div>
         <NuxtLink
-          v-else
+          v-else-if="!item.cta"
           :to="item.link"
           class="text-xl font-semibold text-gray-100 hover:text-primary border-b border-dashed border-transparent hover:border-primary transition duration-300"
           >{{ item.text }}</NuxtLink
+        >
+        <a
+          v-else
+          :href="item.link"
+          target="_BLANK"
+          class="text-xl font-semibold text-gray-100 border border-white/80 hover:text-primary transition duration-300 px-3 py-2"
+          >{{ item.text }}</a
         >
       </template>
     </div>
