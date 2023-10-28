@@ -27,9 +27,6 @@
       class="absolute bottom-0 w-full h-20 p-2 md:p-8 text-gray-50/70 opacity-50 hover:opacity-75 font-light text-sm text-center flex flex-row items-center justify-between gap-2 md:gap-8 transition duration-300">
       <NuxtLink to="/privacy-policy" class="hover:text-white transition duration-300">Privacy Policy</NuxtLink>
       <p class="hover:text-white transition duration-300">© DLFoundation 2023</p>
-      <a href="https://www.lyacos.net" target="_BLANK" class="hover:text-white transition duration-300"
-        >Official Website</a
-      >
     </div>
   </div>
 </template>

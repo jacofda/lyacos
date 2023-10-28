@@ -13,7 +13,7 @@
         loading="lazy"
         width="400"
         height="600" />
-      <div class="p-4 lg:p-8">{{ item.description }}</div>
+      <div class="p-4 lg:p-8 text-justify lg:text-lg text-gray-700">{{ item.description }}</div>
     </div>
     <div class="flex flex-col md:flex-row items-center justify-center max-w-5xl mx-auto my-24">
       <NuxtLink
