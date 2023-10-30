@@ -60,12 +60,18 @@
               </div>
 
               <NuxtLink
-                v-else
+                v-else-if="!item.cta"
                 :to="item.link"
                 class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-gray-200 hover:text-primary transition duration-300"
                 @click="store.toggleMobile()"
                 >{{ item.text }}</NuxtLink
               >
+              <a
+                v-else
+                :href="item.link"
+                target="_BLANK"
+                v-html="item.text"
+                class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold text-gray-200 hover:text-primary transition duration-300 leading-4 text-center" />
             </template>
           </div>
         </div>

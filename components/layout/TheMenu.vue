@@ -71,9 +71,8 @@
           v-else
           :href="item.link"
           target="_BLANK"
-          class="text-xl font-semibold text-gray-100 border border-white/80 hover:text-primary transition duration-300 px-3 py-2"
-          >{{ item.text }}</a
-        >
+          class="text-xl font-semibold text-gray-100 border border-white/80 hover:text-primary transition duration-300 px-3 py-2 leading-5 text-center"
+          v-html="item.text" />
       </template>
     </div>
   </nav>

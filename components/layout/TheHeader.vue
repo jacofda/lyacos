@@ -1,4 +1,5 @@
 <template>
+  <!-- group-hover:lg:bg-gray-950/20 -->
   <header class="bg-transparent group-hover:lg:bg-gray-950/20 transition duration-300">
     <LayoutTheMenu @toggle-mobile="$emit('toggleMobile')" :is-home="isHome" :menu="menu" />
     <LayoutTheMobileMenu @toggle-mobile="$emit('toggleMobile')" :is-home="isHome" :menu="menu" />
@@ -53,7 +54,7 @@ export default class TheHeader extends Vue {
     },
     {
       link: 'https://www.lyacos.net',
-      text: 'Official Website',
+      text: 'Dimitris Lyacos <br> <span style="font-weight:100; opacity:0.85;font-size:90%">Official website</span>',
       external: true,
       cta: true,
     },
