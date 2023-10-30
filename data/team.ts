@@ -34,7 +34,7 @@ export const items = [
     order: 3,
   },
   {
-    img: 'https://ik.imagekit.io/2gweb/arzu-eker.webp',
+    img: 'https://ik.imagekit.io/2gweb/lyacos/arzu-eker.webp',
     name: 'Dr. Arzu Eker',
     slug: 'arzu-eker',
     position: 'Advisor, Turkey',
@@ -43,7 +43,7 @@ export const items = [
     order: 4,
   },
   {
-    img: 'https://ik.imagekit.io/2gweb/elli-ligyrou-lyacos.webp',
+    img: 'https://ik.imagekit.io/2gweb/lyacos/elli-ligyrou-lyacos.webp',
     name: 'Elli Ligyrou-Lyacos',
     slug: 'elli-ligyrou-lyacos',
     position: 'Executive Chairwoman',
@@ -61,7 +61,7 @@ export const items = [
     order: 6,
   },
   {
-    img: 'https://ik.imagekit.io/2gweb/penny-papadopoulou.webp',
+    img: 'https://ik.imagekit.io/2gweb/lyacos/penny-papadopoulou.webp',
     name: 'Penny Papadopoulou',
     slug: 'penny-papadopoulou',
     position: 'Public Relations',
@@ -70,12 +70,12 @@ export const items = [
     order: 7,
   },
   {
-    img: 'https://placehold.co/400x600/000/F9FAFB/?font=roboto&text=coming soon',
+    img: 'https://ik.imagekit.io/2gweb/lyacos/eugene-attia.webp',
     name: 'Eugene Attia',
     slug: 'eugene-attia',
     position: 'Translations Coordinator',
     description:
-      'Eugene Attia is a philologist with a first degree on Archeology &amp; History of Art and postgraduate studies on tendencies in modern linguistics as well as media discourse and communication. Her latest work focuses on gender issues in contemporary Greek literature. She loves Kazantzakis and cats.',
+      'Eugene Attia is a philologist with a first degree on Archeology & History of Art and postgraduate studies on tendencies in modern linguistics as well as media discourse and communication. Her latest work focuses on gender issues in contemporary Greek literature. She loves Kazantzakis and cats.',
     order: 8,
   },
   {
