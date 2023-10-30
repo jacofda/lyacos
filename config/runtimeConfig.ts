@@ -1,7 +1,7 @@
 const runtimeConfig = {
   public: {
     siteName: 'Dimitri Lyacos Foundation',
-    cdn: 'https://ik.imagekit.io/2gweb/lycaos/',
+    cdn: 'https://ik.imagekit.io/2gweb/lycos/',
     // baseURL: process.env.ENDPOINT,
     // appName: process.env.APP_NAME,
     // token: process.env.TOKEN,
