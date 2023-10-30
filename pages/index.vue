@@ -9,7 +9,7 @@
         <h1 class="text-3xl lg:text-6xl font-light text-gray-50/70">Dimitris Lyacos</h1>
         <h2 class="text-white text-4xl lg:text-7xl uppercase font-extrabold -mt-3">Foundation</h2>
         <p class="text-gray-50/70 max-w-xl text-center font-thin">
-          Preserving, and facilitating the distribution of the literary works by Dimitris Lyacos to the general public
+          Preserving and facilitating the distribution of the literary works by Dimitris Lyacos to the general public
           for the purposes of art and culture.
         </p>
       </div>

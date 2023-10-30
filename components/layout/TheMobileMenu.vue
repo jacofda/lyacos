@@ -1,7 +1,5 @@
 <template>
-  <!-- Mobile menu, show/hide based on menu open state. -->
   <div :class="{ hidden: !isMobileOpen }" role="dialog" aria-modal="true">
-    <!-- Background backdrop, show/hide based on slide-over state. -->
     <div class="fixed inset-0 z-10"></div>
     <div
       class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-gray-950 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
@@ -42,11 +40,6 @@
                   aria-expanded="false"
                   @click="toggleDropdown()">
                   {{ item.text }}
-                  <!--
-                  Expand/collapse icon, toggle classes based on menu open state.
-
-                  Open: "rotate-180", Closed: ""
-                -->
                   <svg class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path
                       fill-rule="evenodd"
@@ -54,7 +47,6 @@
                       clip-rule="evenodd" />
                   </svg>
                 </button>
-                <!-- 'Product' sub-menu, show/hide based on menu state. -->
                 <div class="mt-2 space-y-2" :class="{ hidden: !dropdownOpen }">
                   <NuxtLink
                     v-for="(dropdownItem, j) in item.dropdownItems"
@@ -87,7 +79,7 @@ import { useLayoutStore } from '~/store/layouts';
 import { storeToRefs } from 'pinia';
 
 @Component
-export default class TheHeader extends Vue {
+export default class TheMobileMenu extends Vue {
   @Prop() readonly isHome!: boolean;
   @Prop() readonly menu!: any[];
   public store = useLayoutStore();
@@ -96,6 +88,23 @@ export default class TheHeader extends Vue {
 
   public toggleDropdown() {
     this.dropdownOpen = !this.dropdownOpen;
+  }
+
+  toggleDropdownOnClick(e: Event) {
+    if (this.dropdownOpen) {
+      const target = e.target as HTMLElement;
+      if (!target.closest('.relative')) {
+        this.dropdownOpen = false;
+      }
+    }
+  }
+
+  mounted() {
+    document.addEventListener('click', this.toggleDropdownOnClick);
+  }
+
+  beforeUnmount() {
+    document.removeEventListener('click', this.toggleDropdownOnClick);
   }
 }
 </script>

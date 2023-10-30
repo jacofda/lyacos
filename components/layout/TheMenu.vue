@@ -95,4 +95,21 @@ const dropdownOpen = ref(false);
 const toggleDropdown = () => {
   dropdownOpen.value = !dropdownOpen.value;
 };
+
+function toggleDropdownOnClick(e: Event) {
+  if (dropdownOpen.value) {
+    const target = e.target as HTMLElement;
+    if (!target.closest('.relative')) {
+      dropdownOpen.value = false;
+    }
+  }
+}
+
+onMounted(() => {
+  document.addEventListener('click', toggleDropdownOnClick);
+});
+
+onBeforeUnmount(() => {
+  document.removeEventListener('click', toggleDropdownOnClick);
+});
 </script>
