@@ -52,12 +52,12 @@ export const items = [
     order: 5,
   },
   {
-    img: 'https://placehold.co/400x600/000/F9FAFB/?font=roboto&text=coming soon',
+    img: 'https://ik.imagekit.io/2gweb/lyacos/anthimos-tsentekidis.webp',
     name: 'Anthimos Tsentekidis',
     slug: 'anthimos-tsentekidis',
     position: 'Treasurer',
     description:
-      'Anthimos Tsedekidis has been a Senior Insurance Consultant in collaboration with major Insurance companies since 2014. A former table tennis champion, he  is also running Table Tennis Club: -------. In his free time he explores heavy  metal’s love affair with literature.',
+      'Since 2014 Anthimos Tsentekidis has been a Senior Insurance Consultant in collaboration with major insurance companies. A former table tennis champion, he is also running Table Tennis Club APS ILION. In his free time he explores heavy metal’s love affair with literature.',
     order: 6,
   },
   {
