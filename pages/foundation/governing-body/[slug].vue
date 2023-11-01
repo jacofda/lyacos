@@ -47,4 +47,13 @@ const item = computed(() => {
   const slug = router.currentRoute.value.params.slug as string;
   return items.find((i: TeamMember) => i.slug === slug);
 });
+
+useSeoMeta({
+  title: item.value?.name + ' | Dimitris Lyacos Foundation',
+  description: item.value?.description?.substring(0, 150) || item.value?.name + ' | Dimitris Lyacos Foundation',
+  ogTitle: item.value?.name + ' | Dimitris Lyacos Foundation',
+  ogDescription: item.value?.description?.substring(0, 150) || item.value?.name + ' | Dimitris Lyacos Foundation',
+  ogImage: item.value?.img,
+  ogUrl: 'https://lyacos.org/foundation/governing-body/' + item.value?.slug,
+});
 </script>

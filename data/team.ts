@@ -17,11 +17,12 @@ export const items = [
     description: '',
   },
   {
-    img: 'https://placehold.co/400x600/000/F9FAFB/?font=roboto&text=coming soon',
-    name: 'Dr. Vaios Dafos',
-    slug: 'vaios-dafos',
+    img: 'https://ik.imagekit.io/2gweb/lyacos/vaios-ntafos.webp',
+    name: 'Dr. Vaios Ntafos',
+    slug: 'vaios-ntafos',
     position: 'Vice-chairman, Secretary',
-    description: '',
+    description:
+      'Vaios Ntafos is an editor and translator. He studied Political Sciences at the National and Kapodistrian University of Athens and Philosophy at the University of Toulouse. He holds a PhD in Philosophy and translates from French and English. Since 2107 he has been running the publishing house Amolgos in Athens, focusing on Philosophy, History of Ideas and Theatre. His scientific interests are primarily centered on European history and philosophy of the 17th and 18th centuries. He defines himself as an independent scholar in bleak times.',
     order: 2,
   },
   {
