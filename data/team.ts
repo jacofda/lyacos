@@ -80,11 +80,12 @@ export const items = [
     order: 8,
   },
   {
-    img: 'https://placehold.co/400x600/000/F9FAFB/?font=roboto&text=coming soon',
+    img: 'https://ik.imagekit.io/2gweb/lyacos/kostas-lioumas.webp',
     name: 'Kostas Lioumas',
     slug: 'kostas-lioumas',
     position: 'Legal Representation',
-    description: '',
+    description:
+      'Costas Lioumas is a Greek Lawyer registered with the Athens Bar Association since 1995 and appointed at the Athens Supreme Court. He has 25 years of experience in Property, Administrative and Real Estate Law. He is a former President and, currently, member of the Council of The Rizarios Foundation.',
     order: 9,
   },
 ];
