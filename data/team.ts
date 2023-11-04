@@ -34,6 +34,17 @@ export const items = [
       'Andrew Barrett is a translator and musician, who lives in Detroit, Michigan. He translates from the ancient Greek and modern Greek. He has translated Dimitris Lyacos’ Until the Victim Becomes our Own, the follow-up and fourth part to the Poena Damni trilogy. His interviews with Dimitris concerning the composition and themes of Until the Victim Becomes our Own have appeared in Bomb and 3:AM Magazine. He is one of forty-two translators who contributed to a new translation of the Dionysiaca of Nonnus, published by The University of Michigan Press in 2022. His translations have appeared in Image, 3:AM Magazine, Words without Borders, MAYDAY, Anomalous Press and others. He attended the Banff International Translation Centre in 2011 and the Bread Loaf Translator’s Conference in 2019. He teaches ancient Greek mythology at Wayne State University.',
     order: 3,
   },
+
+  {
+    img: 'https://ik.imagekit.io/2gweb/lyacos/shao-xueping.webp',
+    name: 'Shao Xueping',
+    slug: 'shao-xueping',
+    position: 'Advisor, China',
+    description:
+      'Critic, columnist, translator, director, and deputy general secretary of Shakespeare Association of China. Educated at Fujian Normal University, Peking University and Tsinghua University, she has been working with the School of English and International Studies of Beijing Foreign Studies University since 2013. She has published a dozen theses on the plays  by William Shakespeare and John Webster, and her Chinese translation of Shakespeare’s Coriolanus and A Midsummer Night’s Dream were published by Foreign Language Teaching and Research Press in 2015 and 2016. In 2017, her English translation of Relationship between the Central Government and Local Governments of Contemporary China (当代中国的中央地方关系) was published by China Social Sciences Press and Springer. Her English translation of Chinese Narratology (中国叙事学) is to be published by Routledge.',
+    order: 4,
+  },
+
   {
     img: 'https://ik.imagekit.io/2gweb/lyacos/arzu-eker.webp',
     name: 'Dr. Arzu Eker',
@@ -41,7 +52,7 @@ export const items = [
     position: 'Advisor, Turkey',
     description:
       'Arzu Eker holds a PhD from Boğaziçi University/Aristotelian University in Thessaloniki in Translation Studies. Her dissertation examines literary journalism and translation as dynamics in the recontextualization of traveling fiction with a special focus on Orhan Pamuk’s Pre-Nobel novels in English translation and their reception in reviews. A freelance translator, she has contributed a number of scholarly articles to international journals and participated in major conferences and also taught academic English, translation and translation theory at Turkish and Greek universities. She is the translator of Dimitris Lyacos’s books into Turkish.',
-    order: 4,
+    order: 5,
   },
   {
     img: 'https://ik.imagekit.io/2gweb/lyacos/elli-ligyrou-lyacos.webp',
@@ -50,7 +61,7 @@ export const items = [
     position: 'Executive Chairwoman',
     description:
       'Elli Ligyrou-Lyacos has a career spanning over 30 years in cinema as Assistant Director and Make-Up Artist. She has participated in more than 3000 productions including feature films, documentaries, advertising etc. Since 2012 she is the partner of Dimitris Lyacos. They married in 2019.',
-    order: 5,
+    order: 6,
   },
   {
     img: 'https://ik.imagekit.io/2gweb/lyacos/anthimos-tsentekidis.webp',
@@ -59,7 +70,7 @@ export const items = [
     position: 'Treasurer',
     description:
       'Since 2014 Anthimos Tsentekidis has been a Senior Insurance Consultant in collaboration with major insurance companies. A former table tennis champion, he is also running Table Tennis Club APS ILION. In his free time he explores heavy metal’s love affair with literature.',
-    order: 6,
+    order: 7,
   },
   {
     img: 'https://ik.imagekit.io/2gweb/lyacos/penny-papadopoulou.webp',
@@ -68,7 +79,7 @@ export const items = [
     position: 'Public Relations',
     description:
       'Penny Papadopoulou is a classical guitar soloist. For the past twenty years she has been teaching in Conservatories across Athens and participated in numerous seminars. She has a special interest in musico-literary studies, the common origin of music and poetry and multi-medial works that testify to a sisterhood between the arts.',
-    order: 7,
+    order: 8,
   },
   {
     img: 'https://ik.imagekit.io/2gweb/lyacos/eugene-attia.webp',
@@ -77,7 +88,7 @@ export const items = [
     position: 'Translations Coordinator',
     description:
       'Eugene Attia is a philologist with a first degree on Archeology & History of Art and postgraduate studies on tendencies in modern linguistics as well as media discourse and communication. Her latest work focuses on gender issues in contemporary Greek literature. She loves Kazantzakis and cats.',
-    order: 8,
+    order: 9,
   },
   {
     img: 'https://ik.imagekit.io/2gweb/lyacos/kostas-lioumas.webp',
@@ -86,6 +97,6 @@ export const items = [
     position: 'Legal Representation',
     description:
       'Costas Lioumas is a Greek Lawyer registered with the Athens Bar Association since 1995 and appointed at the Athens Supreme Court. He has 25 years of experience in Property, Administrative and Real Estate Law. He is a former President and, currently, member of the Council of The Rizarios Foundation.',
-    order: 9,
+    order: 10,
   },
 ];
