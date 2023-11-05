@@ -10,17 +10,18 @@ export interface TeamMember {
 export const items = [
   {
     img: 'https://placehold.co/400x600/000/F9FAFB/?font=roboto&text=coming soon',
-    name: 'Dr. Anastassios Psilogiannopoulos',
-    slug: 'anastassios-psilogiannopoulos',
+    name: 'Dr. Anastassios Psilojiannopoulos',
+    slug: 'anastassios-psilojiannopoulos',
     position: 'Chairman of the Board',
     order: 1,
-    description: '',
+    description:
+      'Anastassios Psilojannopoulos holds degrees in Classical Philology, History of Science and Philosophy of Technology. His doctoral theses at Humboldt University focuses on works on Metaphysics and Logic published from 1687 to 1777 in relation to Kant’s Critique of Pure Reason. His international publications include papers on the early German Enlightenment as well as annotated translations of Brecht, Schopenhauer, Kafka, Marx, and Kautsky. He has also  translated a number of books on Ancient History and Byzantine Education as well as German detective literature.',
   },
   {
     img: 'https://ik.imagekit.io/2gweb/lyacos/vaios-ntafos.webp',
     name: 'Dr. Vaios Ntafos',
     slug: 'vaios-ntafos',
-    position: 'Vice-chairman, Secretary',
+    position: 'Vice-Chairman, Secretary',
     description:
       'Vaios Ntafos is an editor and translator. He studied Political Sciences at the National and Kapodistrian University of Athens and Philosophy at the University of Toulouse. He holds a PhD in Philosophy and translates from French and English. Since 2107 he has been running the publishing house Amolgos in Athens, focusing on Philosophy, History of Ideas and Theatre. His scientific interests are primarily centered on European history and philosophy of the 17th and 18th centuries. He defines himself as an independent scholar in bleak times.',
     order: 2,
@@ -37,7 +38,7 @@ export const items = [
 
   {
     img: 'https://ik.imagekit.io/2gweb/lyacos/shao-xueping.webp',
-    name: 'Shao Xueping',
+    name: 'Dr. Shao Xueping',
     slug: 'shao-xueping',
     position: 'Advisor, China',
     description:
@@ -60,7 +61,7 @@ export const items = [
     slug: 'elli-ligyrou-lyacos',
     position: 'Executive Chairwoman',
     description:
-      'Elli Ligyrou-Lyacos has a career spanning over 30 years in cinema as Assistant Director and Make-Up Artist. She has participated in more than 3000 productions including feature films, documentaries, advertising etc. Since 2012 she is the partner of Dimitris Lyacos. They married in 2019.',
+      'Elli Ligyrou-Lyacos has a career spanning over 30 years in cinema as Assistant Director and Make-Up Artist. She has participated in more than 3000 productions including feature films, documentaries and advertising etc. Since 2012 she is the partner of Dimitris Lyacos. They married in 2019.',
     order: 6,
   },
   {
