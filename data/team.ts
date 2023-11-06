@@ -9,16 +9,16 @@ export interface TeamMember {
 
 export const items = [
   {
-    img: 'https://placehold.co/400x600/000/F9FAFB/?font=roboto&text=coming soon',
-    name: 'Dr. Anastassios Psilojiannopoulos',
-    slug: 'anastassios-psilojiannopoulos',
+    img: 'anastassios-psilojannopoulos.webp',
+    name: 'Dr. Anastassios Psilojannopoulos',
+    slug: 'anastassios-psilojannopoulos',
     position: 'Chairman of the Board',
     order: 1,
     description:
       'Anastassios Psilojannopoulos holds degrees in Classical Philology, History of Science and Philosophy of Technology. His doctoral theses at Humboldt University focuses on works on Metaphysics and Logic published from 1687 to 1777 in relation to Kant’s Critique of Pure Reason. His international publications include papers on the early German Enlightenment as well as annotated translations of Brecht, Schopenhauer, Kafka, Marx, and Kautsky. He has also  translated a number of books on Ancient History and Byzantine Education as well as German detective literature.',
   },
   {
-    img: 'https://ik.imagekit.io/2gweb/lyacos/vaios-ntafos.webp',
+    img: 'vaios-ntafos.webp',
     name: 'Dr. Vaios Ntafos',
     slug: 'vaios-ntafos',
     position: 'Vice-Chairman, Secretary',
@@ -27,7 +27,7 @@ export const items = [
     order: 2,
   },
   {
-    img: 'https://people.wayne.edu/profile/aj5320/1578/photo_barrett.jpg',
+    img: 'andrew-barrett.webp',
     name: 'Andrew Barrett',
     slug: 'andrew-barrett',
     position: 'Advisor, USA',
@@ -37,7 +37,7 @@ export const items = [
   },
 
   {
-    img: 'https://ik.imagekit.io/2gweb/lyacos/shao-xueping.webp',
+    img: 'shao-xueping.webp',
     name: 'Dr. Shao Xueping',
     slug: 'shao-xueping',
     position: 'Advisor, China',
@@ -47,7 +47,7 @@ export const items = [
   },
 
   {
-    img: 'https://ik.imagekit.io/2gweb/lyacos/arzu-eker.webp',
+    img: 'arzu-eker.webp',
     name: 'Dr. Arzu Eker',
     slug: 'arzu-eker',
     position: 'Advisor, Turkey',
@@ -56,16 +56,16 @@ export const items = [
     order: 5,
   },
   {
-    img: 'https://ik.imagekit.io/2gweb/lyacos/elli-ligyrou-lyacos.webp',
+    img: 'elli-ligyrou-lyacos.webp',
     name: 'Elli Ligyrou-Lyacos',
     slug: 'elli-ligyrou-lyacos',
     position: 'Executive Chairwoman',
     description:
-      'Elli Ligyrou-Lyacos has a career spanning over 30 years in cinema as Assistant Director and Make-Up Artist. She has participated in more than 3000 productions including feature films, documentaries and advertising etc. Since 2012 she is the partner of Dimitris Lyacos. They married in 2019.',
+      'Elli Ligyrou-Lyacos has a career spanning over 30 years in cinema as Assistant Director and Make-Up Artist. She has participated in more than 3000 productions including feature films, documentaries and advertising. Since 2012 she is the partner of Dimitris Lyacos. They married in 2019.',
     order: 6,
   },
   {
-    img: 'https://ik.imagekit.io/2gweb/lyacos/anthimos-tsentekidis.webp',
+    img: 'anthimos-tsentekidis.webp',
     name: 'Anthimos Tsentekidis',
     slug: 'anthimos-tsentekidis',
     position: 'Treasurer',
@@ -74,7 +74,7 @@ export const items = [
     order: 7,
   },
   {
-    img: 'https://ik.imagekit.io/2gweb/lyacos/penny-papadopoulou.webp',
+    img: 'penny-papadopoulou.webp',
     name: 'Penny Papadopoulou',
     slug: 'penny-papadopoulou',
     position: 'Public Relations',
@@ -83,7 +83,7 @@ export const items = [
     order: 8,
   },
   {
-    img: 'https://ik.imagekit.io/2gweb/lyacos/eugene-attia.webp',
+    img: 'eugene-attia.webp',
     name: 'Eugene Attia',
     slug: 'eugene-attia',
     position: 'Translations Coordinator',
@@ -92,7 +92,7 @@ export const items = [
     order: 9,
   },
   {
-    img: 'https://ik.imagekit.io/2gweb/lyacos/kostas-lioumas.webp',
+    img: 'kostas-lioumas.webp',
     name: 'Kostas Lioumas',
     slug: 'kostas-lioumas',
     position: 'Legal Representation',

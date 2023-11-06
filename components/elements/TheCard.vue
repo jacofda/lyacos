@@ -5,7 +5,7 @@
     @click="goToIf">
     <img
       class="mx-auto h-64 w-64 rounded-xl object-cover md:h-64 md:w-48 lg:h-80 lg:w-64 mb-4"
-      :src="item.img"
+      :src="config.public.cdn + item.img"
       :alt="item.name"
       loading="lazy"
       width="400"
@@ -23,6 +23,8 @@ import { Component, Vue, Prop } from 'vue-facing-decorator';
 @Component
 export default class TheCard extends Vue {
   @Prop() item!: any;
+
+  public config = useConfig();
 
   goToIf() {
     if (this.item.description) {

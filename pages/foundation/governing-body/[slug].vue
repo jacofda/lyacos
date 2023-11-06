@@ -8,7 +8,7 @@
     <div class="flex flex-col md:flex-row items-center justify-center max-w-5xl mx-auto my-24">
       <img
         class="mx-auto h-64 w-64 rounded-xl object-cover md:h-64 md:w-48 lg:h-80 lg:w-64"
-        :src="item.img"
+        :src="config.public.cdn + item.img"
         :alt="item.name"
         loading="lazy"
         width="400"
@@ -35,7 +35,7 @@
 import { items, TeamMember } from '@/data/team';
 
 const router = useRouter();
-const config = useRuntimeConfig();
+const config = useConfig();
 defineProps({
   item: {
     type: Object as PropType<TeamMember>,
@@ -53,7 +53,7 @@ useSeoMeta({
   description: item.value?.description?.substring(0, 150) || item.value?.name + ' | Dimitris Lyacos Foundation',
   ogTitle: item.value?.name + ' | Dimitris Lyacos Foundation',
   ogDescription: item.value?.description?.substring(0, 150) || item.value?.name + ' | Dimitris Lyacos Foundation',
-  ogImage: item.value?.img,
+  ogImage: config.public.cdn + item.value?.img,
   ogUrl: 'https://lyacos.org/foundation/governing-body/' + item.value?.slug,
 });
 </script>
