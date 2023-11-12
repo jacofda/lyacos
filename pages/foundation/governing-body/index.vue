@@ -19,8 +19,8 @@
     </div>
 
     <div class="container mx-auto px-6 md:px-12 xl:px-32">
-      <div class="grid items-center gap-12 md:grid-cols-2 lg:grid-cols-4">
-        <template v-for="item in items.filter(i => i.order > 1 && i.order < 8)">
+      <div class="grid items-center gap-12 md:grid-cols-2 lg:grid-cols-3">
+        <template v-for="item in items.filter(i => i.order > 1 && i.order < 9)">
           <ElementsTheCard :item="item" />
         </template>
       </div>
@@ -37,7 +37,7 @@
   <div class="bg-gray-50 dark:bg-gray-800 py-20">
     <div class="container mx-auto px-6 md:px-12 xl:px-32">
       <div class="grid items-center gap-12 md:grid-cols-3 lg:grid-cols-4">
-        <template v-for="item in items.filter(i => i.order > 7)">
+        <template v-for="item in items.filter(i => i.order > 8)">
           <ElementsTheCard :item="item" />
         </template>
       </div>

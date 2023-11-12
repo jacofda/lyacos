@@ -1,5 +1,5 @@
 <template>
-  <section class="px-4 py-20 w-full">
+  <section v-if="item" class="px-4 py-20 w-full">
     <div class="group flex flex-col items-center justify-center">
       <h2 class="text-gray-950 text-2xl lg:text-4xl uppercase font-extrabold">{{ item.position }}</h2>
       <p class="bg-gray-800 w-6 h-1 group-hover:w-16 group-hover:-skew-y-3 transition-all duration-300 my-2"></p>
@@ -39,7 +39,6 @@ const config = useConfig();
 defineProps({
   item: {
     type: Object as PropType<TeamMember>,
-    required: true,
   },
 });
 
