@@ -76,6 +76,17 @@ export const items = [
       'Arzu Eker holds a PhD from Boğaziçi University/Aristotelian University in Thessaloniki in Translation Studies. Her dissertation examines literary journalism and translation as dynamics in the recontextualization of traveling fiction with a special focus on Orhan Pamuk’s Pre-Nobel novels in English translation and their reception in reviews. A freelance translator, she has contributed a number of scholarly articles to international journals and participated in major conferences and also taught academic English, translation and translation theory at Turkish and Greek universities. She is the translator of Dimitris Lyacos’s books into Turkish.',
     order: 8,
   },
+
+  {
+    img: 'arnold-mario-dall-o.webp',
+    name: 'Arnold Mario Dall’O',
+    slug: 'arnold-mario-dall-o',
+    position: 'Visual Art Projects Advisor, Italy',
+    description:
+      'Arnold Mario Dall&#39;O studied Fine art in Venice with Emilio Vedova before a Bundesministerium für Kultur scholarship brought him to Vienna where he lived and worked for six years. In 1998 he became one of the founders of the Bolzano Design Academy where he taught until 2005. Since the 1980s he has exhibited internationally in various private galleries and public institutions including: Galleria Goethe, Bolzano (I); Galerie Albert Baumgarten, Freiburg (D); Galerie Thaddaeus Ropac, Salzburg (A), Paolo Maria Deanesi Gallery, Rovereto (I); Lipanjepuntin Gallery, Trieste (I), Sergio Tossi Gallery, Florence (I), Galerie Epikur, Wuppertal (D), Galerie Museum, Bozen (I), Museion, Museum of Modern and Contemporary Art, Bolzano (I); Mart, Museum of Modern and Contemporary Art, Rovereto (I); MAG, Alto Garda Museum, Riva (I), MAC, Museum of Contemporary Art, Lissone (I); Gallery of Contemporary Art, Rome (I); Venice Biennale, Italian Pavilion, Palazzo Trentini, Trento (I); Manifesta 7, Parallelevent, Rovereto (I); Museumsquartier, Vienna (A), Merano Arte/Kunst Meran (I), Österreichische Galerie im Belvedere, Wien (A), Galleria Civica di Arte Contemporanea, Trento (I). He lives in Merano, (BZ), Italy.',
+    order: 9,
+  },
+
   {
     img: 'elli-ligyrou-lyacos.webp',
     name: 'Elli Ligyrou-Lyacos',
@@ -83,7 +94,7 @@ export const items = [
     position: 'Executive Chairwoman',
     description:
       'Elli Ligyrou-Lyacos has a career spanning over 30 years in cinema as Assistant Director and Make-Up Artist. She has participated in more than 3000 productions including feature films, documentaries and advertising. Since 2012 she is the partner of Dimitris Lyacos. They married in 2019.',
-    order: 9,
+    order: 10,
   },
   {
     img: 'anthimos-tsentekidis.webp',
@@ -92,7 +103,7 @@ export const items = [
     position: 'Treasurer',
     description:
       'Since 2014 Anthimos Tsentekidis has been a Senior Insurance Consultant in collaboration with major insurance companies. A former table tennis champion, he is also running Table Tennis Club APS ILION. In his free time he explores heavy metal’s love affair with literature.',
-    order: 10,
+    order: 11,
   },
   {
     img: 'penny-papadopoulou.webp',
@@ -101,7 +112,7 @@ export const items = [
     position: 'Public Relations',
     description:
       'Penny Papadopoulou is a classical guitar soloist. For the past twenty years she has been teaching in Conservatories across Athens and participated in numerous seminars. She has a special interest in musico-literary studies, the common origin of music and poetry and multi-medial works that testify to a sisterhood between the arts.',
-    order: 11,
+    order: 12,
   },
   {
     img: 'eugene-attia.webp',
@@ -110,7 +121,7 @@ export const items = [
     position: 'Translations Coordinator',
     description:
       'Eugene Attia is a philologist with a first degree on Archeology & History of Art and postgraduate studies on tendencies in modern linguistics as well as media discourse and communication. Her latest work focuses on gender issues in contemporary Greek literature. She loves Kazantzakis and cats.',
-    order: 12,
+    order: 13,
   },
   {
     img: 'kostas-lioumas.webp',
@@ -119,6 +130,6 @@ export const items = [
     position: 'Legal Representation',
     description:
       'Costas Lioumas is a Greek Lawyer registered with the Athens Bar Association since 1995 and appointed at the Athens Supreme Court. He has 25 years of experience in Property, Administrative and Real Estate Law. He is a former President and, currently, member of the Council of The Rizarios Foundation.',
-    order: 13,
+    order: 14,
   },
 ];
