@@ -18,13 +18,22 @@ export const items = [
       'Anastassios Psilojannopoulos holds degrees in Classical Philology, History of Science and Philosophy of Technology. His doctoral thesis at Humboldt University focuses on works on Metaphysics and Logic published from 1687 to 1777 in relation to Kant’s Critique of Pure Reason. His international publications include papers on the early German Enlightenment as well as annotated translations of Brecht, Schopenhauer, Kafka, Marx, and Kautsky. He has also  translated a number of books on Ancient History and Byzantine Education as well as German detective literature.',
   },
   {
+    img: 'dr-vafopoulou-richardson.webp',
+    name: 'DR. C.E. Vafopoulou-Richardson',
+    slug: 'dr-vafopoulou-richardson',
+    position: 'Honorary Chairwoman',
+    order: 2,
+    description:
+      'Dr. Vafopoulou-Richardson read Classical Archeology at University College London before completing her PhD at Oxford University. From 1977 to 1992 she was a Lecturer in Classical Archeology at Jesus, St Hughes’s, and Corpus Christi Colleges, Oxford. A founding member and Trustee of St. Catherine Foundation (1996-2021), she served as the London Executive Director of the Hellenic Foundation for Culture at Brook Street (1995-1999). In partnership with the Austrian Cultural Forum, the Hellenic Foundation under Dr. Vafopoulou-Richardson organized the first international presentation of Lyacos’ The First Death in October 1996 which was followed by further collaborative projects based on his work. Dr. Vafopoulou-Richardson’s post as an Honorary Chairwoman to the Lyacos Foundation comes with the gratitude of its founder for her invaluable contribution to promoting Lyacos’ work at the early stages of his career.',
+  },
+  {
     img: 'vaios-ntafos.webp',
     name: 'Dr. Vaios Ntafos',
     slug: 'vaios-ntafos',
     position: 'Vice-Chairman, Secretary',
     description:
       'Vaios Ntafos is an editor and translator. He studied Political Sciences at the National and Kapodistrian University of Athens and Philosophy at the University of Toulouse. He holds a PhD in Philosophy and translates from French and English. Since 2107 he has been running the publishing house Amolgos in Athens, focusing on Philosophy, History of Ideas and Theatre. His scientific interests are primarily centered on European history and philosophy of the 17th and 18th centuries. He defines himself as an independent scholar in bleak times.',
-    order: 2,
+    order: 3,
   },
 
   {
