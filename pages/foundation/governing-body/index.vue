@@ -9,18 +9,17 @@
 
   <div class="bg-gray-50 dark:bg-gray-800 py-20">
     <div class="container mx-auto px-6 md:px-12 xl:px-32">
-      <div class="grid items-center gap-12 md:grid-cols-3">
-        <template v-for="item in items.filter(i => i.order === 1)">
-          <div></div>
+      <div class="grid items-center gap-12 md:grid-cols-4">
+        <div></div>
+        <template v-for="item in items.filter(i => i.order <= 2)">
           <ElementsTheCard :item="item" />
-          <div></div>
         </template>
       </div>
     </div>
 
     <div class="container mx-auto px-6 md:px-12 xl:px-32 my-12">
       <div class="grid items-center gap-y-12 gap-x-4 md:grid-cols-2 xl:grid-cols-4">
-        <template v-for="item in items.filter(i => i.order > 1 && i.order < 7)">
+        <template v-for="item in items.filter(i => i.order > 2 && i.order < 7)">
           <ElementsTheCard :item="item" />
         </template>
       </div>
