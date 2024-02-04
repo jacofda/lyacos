@@ -19,12 +19,12 @@ export const items = [
   },
   {
     img: 'dr-vafopoulou-richardson.webp',
-    name: 'DR. C.E. Vafopoulou-Richardson',
+    name: 'Dr. C.E. Vafopoulou-Richardson',
     slug: 'dr-vafopoulou-richardson',
     position: 'Honorary Chairwoman',
     order: 2,
     description:
-      'Dr. Vafopoulou-Richardson read Classical Archeology at University College London before completing her PhD at Oxford University. From 1977 to 1992 she was a Lecturer in Classical Archeology at Jesus, St Hughes’s, and Corpus Christi Colleges, Oxford. A founding member and Trustee of St. Catherine Foundation (1996-2021), she served as the London Executive Director of the Hellenic Foundation for Culture at Brook Street (1995-1999). In partnership with the Austrian Cultural Forum, the Hellenic Foundation under Dr. Vafopoulou-Richardson organized the first international presentation of Lyacos’ The First Death in October 1996 which was followed by further collaborative projects based on his work. Dr. Vafopoulou-Richardson’s post as an Honorary Chairwoman to the Lyacos Foundation comes with the gratitude of its founder for her invaluable contribution to promoting Lyacos’ work at the early stages of his career.',
+    'Dr. Vafopoulou-Richardson read Classical Archeology at University College London before completing her PhD at Oxford University. From 1977 to 1992 she was a Lecturer in Classical Archeology at Jesus, St Hugh’s, and Corpus Christi Colleges, Oxford. A founding member and Trustee of St. Catherine Foundation (1996-2021), she served as the London Executive Director of the Hellenic Foundation for Culture at Brook Street (1995-1999). In partnership with the Austrian Cultural Forum, the Hellenic Foundation under Dr. Vafopoulou-Richardson organized the first international presentation of Lyacos’ The First Death in October 1996 which was followed by further collaborative projects based on his work. Dr. Vafopoulou-Richardson’s post as an Honorary Chairwoman to the Lyacos Foundation comes with the gratitude of its founder for her invaluable contribution to promoting Lyacos’ work at the early stages of his career.',
   },
   {
     img: 'vaios-ntafos.webp',
