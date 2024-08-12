@@ -125,7 +125,7 @@ export const items = [
     order: 12,
   },
   {
-    img: 'penny-papadopoulou.webp',
+    img: 'penny-papadopoulou-2.webp',
     name: 'Penny Papadopoulou',
     slug: 'penny-papadopoulou',
     position: 'Public Relations',
