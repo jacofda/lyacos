@@ -1,8 +1,15 @@
 <template>
   <!-- group-hover:lg:bg-gray-950/20 -->
-  <header class="bg-transparent group-hover:lg:bg-gray-950/20 transition duration-300">
-    <LayoutTheMenu @toggle-mobile="$emit('toggleMobile')" :is-home="isHome" :menu="menu" />
-    <LayoutTheMobileMenu @toggle-mobile="$emit('toggleMobile')" :is-home="isHome" :menu="menu" />
+  <header
+    class="bg-transparent group-hover:lg:bg-gray-950/20 transition duration-300">
+    <LayoutTheMenu
+      @toggle-mobile="$emit('toggleMobile')"
+      :is-home="isHome"
+      :menu="menu" />
+    <LayoutTheMobileMenu
+      @toggle-mobile="$emit('toggleMobile')"
+      :is-home="isHome"
+      :menu="menu" />
   </header>
 </template>
 <script lang="ts">
@@ -31,8 +38,8 @@ export default class TheHeader extends Vue {
           text: 'Governing Body',
         },
         {
-          link: '/foundation/the-premisses',
-          text: 'The Premisses',
+          link: '/foundation/the-premises',
+          text: 'The Premises',
         },
       ],
       cta: false,
